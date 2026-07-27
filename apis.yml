@@ -1,8 +1,24 @@
 aid: heroic-story
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/heroic-story.png
 name: Heroic Story
-description: 'Heroic Story is a company surfaced as a portfolio company of multicoin-capital and added
-  to the API Evangelist network as a stub for enrichment. Sector: crypto-web3. This profile is a lead
-  awaiting the enrichment pipeline.'
+description: 'Heroic Story was a Web3 gaming studio building a collaborative, community-owned
+  tabletop role-playing game world — a Dungeons & Dragons-style on-chain MMORPG powered by
+  smart contracts and NFTs on Polygon. Founded by Jay and Scott Rosenkrantz, it raised a
+  $6M seed round in November 2022 led by Upfront Ventures with participation from Multicoin
+  Capital and Polygon, bringing total financing to roughly $7.4M. As of this profiling the
+  primary domain heroicstory.com resolves to a parked GoDaddy lander with no active product,
+  documentation, developer, or API surface, indicating the project is dormant or defunct.'
 url: https://raw.githubusercontent.com/api-evangelist/heroic-story/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,12 +26,19 @@ x-backed-by:
 - multicoin-capital
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-website-status: parked
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
 - Crypto Web3
+- Gaming
+- Blockchain
+- NFT
+- Web3
+- Tabletop RPG
+- Polygon
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +48,8 @@ maintainers:
 common:
 - type: Website
   url: https://heroicstory.com
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 0
+  pass: local-v1
